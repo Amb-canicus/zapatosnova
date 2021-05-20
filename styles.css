@@ -1,0 +1,299 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }
+  header article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1290px;
+    height: 58px; }
+    header article nav {
+      width: 593px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    header article a {
+      font-family: "Sora", sans-serif;
+      font-weight: 800;
+      text-decoration: none;
+      color: black;
+      size: 14px;
+      text-transform: uppercase;
+      height: 20px;
+      width: 20px; }
+    header article button {
+      width: 144px;
+      height: 38px;
+      background-color: black; }
+      header article button a {
+        color: white;
+        text-transform: uppercase;
+        font-family: "Sora", sans-serif; }
+
+.coleccion {
+  margin-top: 52px;
+  height: 723px; }
+  .coleccion .posicionamiento {
+    background-color: black;
+    opacity: 0.66;
+    width: 766px;
+    height: 130px;
+    position: relative;
+    top: -450px;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .coleccion h1 {
+    font-size: 72px;
+    font-family: "Sora", light;
+    text-align: center;
+    color: white; }
+
+.modelos {
+  margin-top: 100px; }
+  .modelos article {
+    display: flex;
+    justify-content: space-between; }
+    .modelos article p {
+      height: 69px;
+      width: 848px;
+      font-family: "Sora", sans-serif; }
+    .modelos article h3 {
+      height: 70px;
+      width: 359px;
+      font-size: 40px;
+      margin: 0px; }
+      .modelos article h3 .nm {
+        font-family: "Sora", sans-serif;
+        font-size: 30px;
+        font-weight: 400; }
+      .modelos article h3 .np {
+        font-family: "Sora", sans-serif;
+        font-size: 30px;
+        font-weight: 800; }
+
+.testimonial {
+  margin-top: 125px; }
+  .testimonial h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Sora", sans-serif; }
+    .testimonial h3 span {
+      font-weight: 400; }
+
+.testimonios {
+  display: flex;
+  justify-content: space-between; }
+  .testimonios article {
+    width: 632px;
+    height: 275px;
+    background-color: black;
+    color: white;
+    border-radius: 8px; }
+    .testimonios article svg {
+      border-radius: 100px; }
+    .testimonios article p {
+      font-family: Sora;
+      font-size: 16px;
+      width: 567px;
+      height: 93px;
+      margin-left: 46px;
+      margin-right: 39px; }
+      .testimonios article p span {
+        font-weight: 700; }
+
+.testi {
+  display: flex;
+  margin-left: 47px; }
+
+.nombre {
+  font-size: 16px;
+  width: 132px;
+  height: 21px;
+  margin-left: 20px; }
+
+.provincia {
+  font-size: 11px;
+  font-weight: 100;
+  margin-left: 20px;
+  height: 14px;
+  text-transform: uppercase; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 125px; }
+  footer .logo {
+    display: flex; }
+    footer .logo p {
+      font-family: Sora, regular;
+      font-size: 12px;
+      font-weight: 400;
+      width: 239px;
+      height: 15px;
+      margin-left: 37px; }
+  footer .redes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -180px; }
+    footer .redes img {
+      margin: 5px; }
+  footer .desarrollado {
+    display: flex; }
+    footer .desarrollado p {
+      font-family: Sora, regular;
+      font-size: 12px;
+      font-weight: 400;
+      margin-left: 37px; }
+    footer .desarrollado img {
+      width: 93.42px; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  width: 1920px;
+  height: 2546px; }
+
+main {
+  width: 1294px;
+  height: 2500px;
+  margin-left: 320px;
+  margin-right: 320px; }
+
+/*# sourceMappingURL=styles.css.map */
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 414px) {
+  body {
+    
+    width: 414px;
+  }  
+
+/*main*/
+@media only screen and (max-width: 414px) {
+  body{
+    width: 414px;
+  }
+  main{
+    margin: 0px;
+    width: 414px;
+  }
+}
+
+/*header*/
+@media only screen and (max-width: 414px) {
+  header{
+    max-width: 328px;
+  }
+  header article nav{
+    width: 114px;
+  }
+  nav a {
+    display: none;
+  }
+}
+
+/*coleccion*/
+@media only screen and (max-width: 414px) {
+  .coleccion{
+    height: 150px;
+  }
+  .coleccion article {
+    height: auto;
+    max-width: 100%;
+  }
+  .coleccion h1{
+    font-size: 24px;
+  }
+  .coleccion  .posicionamiento{
+    position: relative;
+    top: -150px;
+    left: 25%;
+    width: 255px;
+    height: 45px;
+  }
+ .coleccion img {
+   max-width: 414px;
+ } 
+ .peq{
+   max-width: 168px;
+ }
+ .gran{
+   max-width: 342px;
+ }
+ 
+}
+/*modelos*/
+@media only screen and (max-width: 414px) {
+  .modelos{
+    max-width: 360px;
+    height: 1121px;
+  }
+  .modelos article {
+    display: initial;
+    max-width: 359px;
+  }
+  .modelos article p{
+    margin-top: 30px;
+    max-width: 359px;
+    margin-bottom: 100px;
+  }
+  
+}
+/*testimonios*/
+@media only screen and (max-width: 414px){
+  .testimonios{
+    display: initial;
+  }
+  .testimonial{
+    margin-top: 10px;
+    width: 343px;
+    height: 752px;
+  }
+  .testimonios article p{
+    width: 269px;
+    height: 165px;
+  }
+  .testimonios article{
+    width: 342px;
+    height: 334px;
+    margin: 20px;
+  }
+}
+
+/*footer*/
+@media only screen and (max-width: 414px){
+  footer{
+    margin-top: 0px;
+    max-width: 414px;
+    display: initial;
+  }
+  footer .logo{
+    display: initial;
+    margin-top: 200px;
+    margin-left: 120px;
+    
+  }
+  footer .redes{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    width: 239px;
+  }
+  .logo img{
+    margin-top: 50px;
+  }
+  footer .logo p{
+    margin-left: 80px;
+  }
+  footer .desarrollado{
+    margin-left: 50px;
+  }
+}
+
